@@ -62,11 +62,28 @@ https://github.com/sambitek/soc-analyst-portfolio
 
 ---
 
-### 📡 Wireless Security Assessment
-https://github.com/sambitek/wireless-security-assessment  
-- Assessed Wi-Fi network security  
-- Identified vulnerabilities  
-- Recommended mitigation strategies  
+### 2. 📡 Wireless Security Assessment (Aircrack-ng)
+
+This project demonstrates a controlled wireless network security assessment using Aircrack-ng to evaluate Wi-Fi security and identify vulnerabilities in weak encryption configurations.
+
+Tools & Environment:
+- Tool: Aircrack-ng suite
+- OS: Linux
+- Mode: Monitor mode enabled wireless adapter
+
+Process:
+- Enabled monitor mode on wireless interface
+- Captured network packets and WPA/WEP handshake
+- Performed password cracking using captured handshake
+- Analyzed network security strength
+
+Result:
+- Successfully demonstrated how weak Wi-Fi passwords can be compromised
+
+Key Insight:
+Wireless networks using weak passwords or outdated encryption (e.g., WEP) are highly vulnerable to unauthorized access.
+
+👉 [View Full Report (PDF)](./wireless_security_assessment_aircrack-ng.pdf)
 
 ---
 ## Certifications
