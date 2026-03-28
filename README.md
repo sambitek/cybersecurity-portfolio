@@ -11,7 +11,11 @@ I am a cybersecurity analyst focused on threat detection, network security, and 
 - Threat Detection & Analysis  
 - Incident Response  
 - Vulnerability Assessment
-- Digital Forensic Incident Response  
+- Digital Forensic Incident Response
+- Risk assessment
+- Policy evaluation
+- Security auditing  
+
 
 ---
 
@@ -22,7 +26,7 @@ I am a cybersecurity analyst focused on threat detection, network security, and 
 - John Ripper
 - Aircrack-ng suit
 - Hashcat  
-- Kali Linux  
+- Kali Linux
 
 ---
 
@@ -54,14 +58,6 @@ Weak passwords are highly vulnerable to dictionary-based attacks, emphasizing th
 
 ---
 
-### 🛡️ SOC Analyst Lab
-https://github.com/sambitek/soc-analyst-portfolio  
-- Simulated SOC environment  
-- Detected and analyzed security incidents  
-- Investigated logs and alerts  
-
----
-
 ### 2. 📡 Wireless Security Assessment (Aircrack-ng)
 
 This project demonstrates a controlled wireless network security assessment using Aircrack-ng to evaluate Wi-Fi security and identify vulnerabilities in weak encryption configurations.
@@ -86,6 +82,45 @@ Wireless networks using weak passwords or outdated encryption (e.g., WEP) are hi
 👉 [View Full Report (PDF)](./wireless_security_assessment_aircrack-ng.pdf)
 
 ---
+
+### 3. 🛡️ IT Security Audit & Risk Assessment (Mita School)
+
+Overview:
+This project presents a comprehensive security audit of Mita School, evaluating its cybersecurity posture, identifying vulnerabilities, and recommending risk mitigation strategies. The assessment was conducted in a structured and controlled manner for educational purposes.
+
+Scope:
+- Review of security policies and procedures
+- Assessment of network, systems, and infrastructure security
+- Evaluation of staff and student compliance with security practices
+
+Methodology:
+- Conducted risk identification and vulnerability analysis
+- Evaluated existing administrative, technical, and physical controls
+- Assessed compliance with cybersecurity best practices
+- Developed actionable security recommendations
+
+Key Findings:
+- Weak password policies exposing systems to brute-force attacks
+- Unsecured Wi-Fi network
+- Lack of multi-factor authentication (MFA)
+- Inadequate access control mechanisms
+- Potential abuse of course access permissions
+
+Recommendations:
+- Implement CCTV surveillance systems
+- Enforce secure Wi-Fi access controls
+- Deploy access card authentication system
+- Introduce multi-factor authentication (MFA)
+- Restrict access strictly to enrolled courses
+
+Result:
+- Identified critical security gaps and provided practical mitigation strategies to improve institutional security posture
+
+Key Insight:
+Effective cybersecurity is not only technical but also requires strong policies, access control, and user accountability.
+
+👉 [View Full Report (PDF)](./mita_school_security_audit.pdf)
+
 ## Certifications
 
 - SOC Level 1 Learning Path – TryHackMe (March 25, 2026)  
