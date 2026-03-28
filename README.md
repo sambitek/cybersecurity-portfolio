@@ -121,6 +121,32 @@ Effective cybersecurity is not only technical but also requires strong policies,
 
 👉 [View Full Report (PDF)](./mita_school_security_audit.pdf)
 
+### 4. Phishing Attack Simulation (MedusaPhisher)
+
+This project demonstrates a controlled phishing attack simulation using MedusaPhisher to evaluate user susceptibility to social engineering attacks and credential harvesting techniques.
+
+Tools & Environment:
+
+Tool: MedusaPhisher
+OS: Kali Linux
+Environment: Controlled / Localhost testing setup
+
+Methodology:
+
+Configured a phishing template mimicking a legitimate login page
+Generated a controlled phishing link within a safe test environment
+Simulated user interaction with the phishing interface
+Monitored credential capture process and analyzed behavior patterns
+
+Result:
+
+Successfully demonstrated how user credentials can be captured through phishing techniques in a controlled setup
+
+Key Insight:
+Human factors remain one of the weakest links in cybersecurity—users are highly susceptible to well-crafted phishing attacks, especially without proper awareness training.
+
+👉 View Full Report (PDF) (./Phishing_Attack_Simulation_MedusaPhisher.pdf)
+
 ## Certifications
 
 - SOC Level 1 Learning Path – TryHackMe (March 25, 2026)  
