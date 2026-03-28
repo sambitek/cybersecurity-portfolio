@@ -28,11 +28,27 @@ I am a cybersecurity analyst focused on threat detection, network security, and 
 
 ## Projects
 
+## 🔐 Cybersecurity Projects
+
 ### 1. Password Hash Analysis & Recovery (John the Ripper)
+
+This project demonstrates a controlled password auditing exercise using a dictionary attack to identify weak credentials.
+
+Tools & Environment:
 - Tool: John the Ripper
-- Technique: Dictionary Attack
+- OS: Linux
 - Wordlist: rockyou.txt
-- Environment: Linux
+
+Process:
+- Prepared password hash file for analysis
+- Executed cracking using John the Ripper
+- Matched hashes against a wordlist
+
+Result:
+- Successfully recovered a weak password from the hash
+
+Key Insight:
+Weak passwords are highly vulnerable to dictionary-based attacks, emphasizing the need for strong password policies.
 
 👉 [View Full Report](./password_hash_analysis_john_the_ripper.pdf)
 
