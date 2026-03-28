@@ -28,11 +28,13 @@ I am a cybersecurity analyst focused on threat detection, network security, and 
 
 ## Projects
 
-### 🔐 Password Hash Analysis
-https://github.com/sambitek/password-hash-analysis  
-- Analyzed password hashes  
-- Identified weak credentials  
-- Demonstrated password cracking techniques  
+### 1. Password Hash Analysis & Recovery (John the Ripper)
+- Tool: John the Ripper
+- Technique: Dictionary Attack
+- Wordlist: rockyou.txt
+- Environment: Linux
+
+👉 [View Full Report](./password_hash_analysis_john_the_ripper.pdf)
 
 ---
 
