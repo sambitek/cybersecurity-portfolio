@@ -147,6 +147,32 @@ Human factors remain one of the weakest links in cybersecurity—users are highl
 
 👉 View Full Report (PDF) (./Phishing_Attack_Simulation_MedusaPhisher.pdf)
 
+### 5. 🗄️ SQL Data Analysis & Database Operations Lab
+
+This project demonstrates practical use of SQL for managing and analyzing relational databases, focusing on data manipulation, querying, and structural modifications to support efficient and secure data handling.
+
+Tools & Environment:
+- Tool: SQL (MySQL / SQLite)
+- OS: Linux / Windows
+- Database Type: Relational Database
+
+Process:
+- Created and structured database tables
+- Performed data filtering using WHERE, AND, OR conditions
+- Executed CRUD operations (INSERT, UPDATE, DELETE)
+- Applied aggregate functions such as COUNT for data analysis
+- Modified table structure using ALTER TABLE
+- Queried and combined datasets where necessary
+
+Result:
+- Successfully demonstrated efficient data management and querying techniques
+- Performed accurate data updates, deletions, and filtering operations
+
+Key Insight:
+Proper database management and query optimization are essential for maintaining data integrity, enabling efficient data retrieval, and supporting secure backend operations in cybersecurity and software systems.
+
+👉 [View Full Report (PDF)](./SQL_Data_Analysis_&_Database_Operations_Lab.pdf)
+
 ## Certifications
 
 - SOC Level 1 Learning Path – TryHackMe (March 25, 2026)  
