@@ -5,28 +5,40 @@ I am a cybersecurity analyst focused on threat detection, network security, and 
 
 ---
 
-## Skills
-- Network Security  
-- SIEM (Splunk)  
-- Threat Detection & Analysis  
-- Incident Response  
-- Vulnerability Assessment
-- Digital Forensic Incident Response
-- Risk assessment
-- Policy evaluation
-- Security auditing  
+##  🛠️ Technical Skills
 
+### 🔐 Security Tools
+- John the Ripper (Password Cracking & Hash Analysis)
+- Aircrack-ng (Wireless Security Testing)
+- Sysmon (Endpoint Monitoring & Logging)
+- Zphisher / MedusaPhisher (Phishing Simulation)
 
----
+### 💻 Operating Systems
+- Linux (Command Line, Security Testing)
+- Windows (System Monitoring, Event Analysis)
 
-## Tools & Technologies
-- Splunk  
-- Wireshark  
-- Nmap
-- John Ripper
-- Aircrack-ng suit
-- Hashcat  
-- Kali Linux
+### 🧪 Security Domains
+- Password Auditing & Cracking
+- Wireless Network Security Assessment
+- Phishing & Social Engineering Simulation
+- Endpoint Detection & Monitoring (Sysmon)
+- Security Risk Assessment & IT Auditing
+
+### 📊 Monitoring & Analysis
+- Log Analysis (Windows Event Viewer, Sysmon Logs)
+- Process & Network Activity Monitoring
+- Threat Detection & Basic Incident Analysis
+
+### ⚙️ Tools & Technologies
+- PowerShell (Basic Command Execution & Automation)
+- Network Packet Capture (Wi-Fi Assessment)
+- System Configuration & Security Hardening
+
+### 🧠 Concepts & Knowledge
+- CIA Triad (Confidentiality, Integrity, Availability)
+- Authentication & Access Control
+- Network Security Fundamentals
+- Basic Threat Modeling & Risk Analysis
 
 ---
 
