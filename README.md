@@ -72,7 +72,7 @@ Tools & Environment:
 - OS: Linux
 - Wordlist: rockyou.txt
 
-Process:
+Methodology:
 - Prepared password hash file for analysis
 - Executed cracking using John the Ripper
 - Matched hashes against a wordlist
@@ -97,7 +97,7 @@ Tools & Environment:
 - OS: Linux
 - Mode: Monitor mode enabled wireless adapter
 
-Process:
+Methodology:
 - Enabled monitor mode on wireless interface
 - Captured network packets and WPA/WEP handshake
 - Performed password cracking using captured handshake
@@ -186,7 +186,7 @@ Tools & Environment:
 - OS: Linux / Windows
 - Database Type: Relational Database
 
-Process:
+Methodology:
 - Created and structured database tables
 - Performed data filtering using WHERE, AND, OR conditions
 - Executed CRUD operations (INSERT, UPDATE, DELETE)
@@ -221,7 +221,7 @@ Methodology:
 - Analyzed logs using Windows Event Viewer
 
 Result:
-- Identified and analyzed system-level events such as process execution and network activity
+- Analyzed multiple system events including process creation, network connections, and file activity logs.
 
 Key Insight:
 Endpoint monitoring tools like Sysmon provide deep visibility into system behavior and are essential for detecting threats such as reconnaissance, malware activity, and persistence mechanisms.
