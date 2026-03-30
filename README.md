@@ -1,8 +1,7 @@
 # 👨‍💻 Cybersecurity Portfolio
 
 ## About Me
-I am a cybersecurity analyst focused on threat detection, network security, and vulnerability assessment. I have hands-on experience working with security tools, analyzing threats, and conducting security assessments.
-
+Aspiring Cybersecurity Analyst with hands-on experience in threat detection, network security, and security monitoring. Skilled in using tools such as Sysmon, John the Ripper, and Aircrack-ng to identify vulnerabilities and analyze system activity. Experienced in conducting security assessments, simulating real-world attacks, and analyzing logs to detect suspicious behavior. Passionate about blue team operations, endpoint monitoring, and improving organizational security posture.
 ---
 
 ##  🛠️ Technical Skills
@@ -41,13 +40,16 @@ I am a cybersecurity analyst focused on threat detection, network security, and 
 - Basic Threat Modeling & Risk Analysis
 
 ---
+## 🎯 Career Focus
+Aspiring SOC Analyst with a focus on threat detection, endpoint monitoring, and security analysis.
+
+---
 
 ## Projects
 
-## 🔐 Cybersecurity Projects
-
 ### 1. Password Hash Analysis & Recovery (John the Ripper)
 
+Overview:
 This project demonstrates a controlled password auditing exercise using a dictionary attack to identify weak credentials.
 
 Tools & Environment:
@@ -72,6 +74,7 @@ Weak passwords are highly vulnerable to dictionary-based attacks, emphasizing th
 
 ### 2. 📡 Wireless Security Assessment (Aircrack-ng)
 
+Overview:
 This project demonstrates a controlled wireless network security assessment using Aircrack-ng to evaluate Wi-Fi security and identify vulnerabilities in weak encryption configurations.
 
 Tools & Environment:
@@ -135,6 +138,7 @@ Effective cybersecurity is not only technical but also requires strong policies,
 
 ### 4. Phishing Attack Simulation (MedusaPhisher)
 
+Overview:
 This project demonstrates a controlled phishing attack simulation using MedusaPhisher to evaluate user susceptibility to social engineering attacks and credential harvesting techniques.
 
 Tools & Environment:
@@ -159,6 +163,7 @@ Human factors remain one of the weakest links in cybersecurity—users are highl
 
 ### 5. 🗄️ SQL Data Analysis & Database Operations Lab
 
+Overview:
 This project demonstrates practical use of SQL for managing and analyzing relational databases, focusing on data manipulation, querying, and structural modifications to support efficient and secure data handling.
 
 Tools & Environment:
@@ -183,7 +188,7 @@ Proper database management and query optimization are essential for maintaining 
 
 👉 [View Full Report (PDF)](./SQL_Data_Analysis_&_Database_Operations_Lab.pdf)
 
-### 5. 🖥️ Endpoint Security Monitoring (Sysmon)
+### 6. 🖥️ Endpoint Security Monitoring (Sysmon)
 
 Overview:
 This project demonstrates the deployment and configuration of Sysmon to enhance endpoint visibility and detect suspicious system activity through detailed logging.
