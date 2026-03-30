@@ -1,3 +1,5 @@
+![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-blue) ![Focus](https://img.shields.io/badge/Focus-SOC%20Analyst-green) ![Level](https://img.shields.io/badge/Level-Entry--Level-orange)
+
 # 👨‍💻 Cybersecurity Portfolio
 
 ## About Me
@@ -45,6 +47,19 @@ Aspiring SOC Analyst with a focus on threat detection, endpoint monitoring, and 
 
 ---
 
+## 📊 Project Summary
+
+| Project | Focus Area | Skills Demonstrated |
+|--------|-----------|--------------------|
+| Password Hash Analysis | System Security | Password Cracking, Hash Analysis |
+| Wireless Security Assessment | Network Security | Wi-Fi Attacks, Packet Capture |
+| IT Security Audit | GRC | Risk Assessment, Policy Evaluation |
+| Phishing Simulation | Social Engineering | Credential Harvesting |
+| SQL Lab | Data Security | Database Operations, Querying |
+| Sysmon Monitoring | Blue Team | Log Analysis, Threat Detection |
+
+---
+
 ## Projects
 
 ### 1. Password Hash Analysis & Recovery (John the Ripper)
@@ -63,7 +78,7 @@ Process:
 - Matched hashes against a wordlist
 
 Result:
-- Successfully recovered a weak password from the hash
+- Investigated and recovered a weak password from the hash
 
 Key Insight:
 Weak passwords are highly vulnerable to dictionary-based attacks, emphasizing the need for strong password policies.
@@ -89,7 +104,7 @@ Process:
 - Analyzed network security strength
 
 Result:
-- Successfully demonstrated how weak Wi-Fi passwords can be compromised
+- Simulated and validated how weak Wi-Fi passwords can be compromised
 
 Key Insight:
 Wireless networks using weak passwords or outdated encryption (e.g., WEP) are highly vulnerable to unauthorized access.
@@ -153,7 +168,7 @@ Methodology:
 - Monitored credential capture process and analyzed behavior patterns  
 
 Result:
-- Successfully demonstrated how user credentials can be captured through phishing techniques in a controlled setup  
+- Simulated and validated how user credentials can be captured through phishing techniques in a controlled setup  
 
 Key Insight:
 Human factors remain one of the weakest links in cybersecurity—users are highly susceptible to well-crafted phishing attacks, especially without proper awareness training.
@@ -180,7 +195,7 @@ Process:
 - Queried and combined datasets where necessary
 
 Result:
-- Successfully demonstrated efficient data management and querying techniques
+- Identified and analyzed efficient data management and querying techniques
 - Performed accurate data updates, deletions, and filtering operations
 
 Key Insight:
@@ -206,7 +221,7 @@ Methodology:
 - Analyzed logs using Windows Event Viewer
 
 Result:
-- Successfully captured and analyzed system-level events such as process execution and network activity
+- Identified and analyzed system-level events such as process execution and network activity
 
 Key Insight:
 Endpoint monitoring tools like Sysmon provide deep visibility into system behavior and are essential for detecting threats such as reconnaissance, malware activity, and persistence mechanisms.
@@ -243,6 +258,6 @@ Endpoint monitoring tools like Sysmon provide deep visibility into system behavi
 
 ---
 
-## Contact
-Email:   soloub7@gmail.com
-LinkedIn: www.linkedin.com/in/ubong-solomon-210358295
+## 📫 Contact
+- Email: soloub7@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/ubong-solomon-210358295
