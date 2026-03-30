@@ -171,6 +171,31 @@ Proper database management and query optimization are essential for maintaining 
 
 👉 [View Full Report (PDF)](./SQL_Data_Analysis_&_Database_Operations_Lab.pdf)
 
+### 5. 🖥️ Endpoint Security Monitoring (Sysmon)
+
+Overview:
+This project demonstrates the deployment and configuration of Sysmon to enhance endpoint visibility and detect suspicious system activity through detailed logging.
+
+Tools & Environment:
+- Tool: Sysmon
+- OS: Windows
+- Tools: PowerShell, Event Viewer
+- Configuration: SwiftOnSecurity Sysmon config
+
+Methodology:
+- Installed and configured Sysmon on Windows system
+- Applied a security-focused configuration file
+- Monitored system events including process, network, and file activity
+- Analyzed logs using Windows Event Viewer
+
+Result:
+- Successfully captured and analyzed system-level events such as process execution and network activity
+
+Key Insight:
+Endpoint monitoring tools like Sysmon provide deep visibility into system behavior and are essential for detecting threats such as reconnaissance, malware activity, and persistence mechanisms.
+
+👉 [View Full Report (PDF)](./endpoint_security_monitoring_sysmon.pdf)
+
 ## Certifications
 
 - SOC Level 1 Learning Path – TryHackMe (March 25, 2026)  
