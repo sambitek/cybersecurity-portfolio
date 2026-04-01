@@ -49,14 +49,17 @@ Aspiring SOC Analyst with a focus on threat detection, endpoint monitoring, and 
 
 ## 📊 Project Summary
 
-| Project | Focus Area | Skills Demonstrated |
-|--------|-----------|--------------------|
-| Password Hash Analysis | System Security | Password Cracking, Hash Analysis |
-| Wireless Security Assessment | Network Security | Wi-Fi Attacks, Packet Capture |
-| IT Security Audit | GRC | Risk Assessment, Policy Evaluation |
-| Phishing Simulation | Social Engineering | Credential Harvesting |
-| SQL Lab | Data Security | Database Operations, Querying |
-| Sysmon Monitoring | Blue Team | Log Analysis, Threat Detection |
+Below is a summary of my hands-on cybersecurity projects, highlighting domain, tools used, and skills demonstrated.
+
+| # | Project | Focus Area | Skills Demonstrated |
+|---|--------|-----------|--------------------|
+| 1 | Password Hash Analysis & Recovery (John the Ripper) | System Security | Password auditing, hash analysis, dictionary attacks |
+| 2 | Wireless Security Assessment (Aircrack-ng) | Network Security | Wi-Fi security testing, packet capture, vulnerability analysis |
+| 3 | IT Security Audit & Risk Assessment (Mita School) | GRC | Risk assessment, policy evaluation, security recommendations |
+| 4 | Phishing Attack Simulation (MedusaPhisher) | Social Engineering | Credential harvesting, attack simulation, user awareness testing |
+| 5 | SQL Data Analysis & Database Operations Lab | Data Security | Database management, querying, CRUD operations, data analysis |
+| 6 | Endpoint Security Monitoring (Sysmon) | Blue Team / SOC | Event log monitoring, process & network activity analysis, threat detection |
+| 7 | SIEM Log Analysis & Threat Detection (Splunk + Sysmon) | SOC / Threat Detection | Log ingestion, security monitoring, detection queries, simulated attacks ||
 
 ---
 
