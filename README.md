@@ -228,6 +228,38 @@ Endpoint monitoring tools like Sysmon provide deep visibility into system behavi
 
 👉 [View Full Report (PDF)](./endpoint_security_monitoring_sysmon.pdf)
 
+### 7. 📊 SIEM Log Analysis & Threat Detection (Splunk + Sysmon)
+
+Overview:
+This project demonstrates the implementation of a basic SIEM environment using Splunk and Sysmon to collect, analyze, and detect suspicious system activity.
+
+Tools & Environment:
+- SIEM: Splunk
+- Endpoint Monitoring: Sysmon
+- OS: Windows
+- Log Source: Windows Event Logs
+
+Methodology:
+- Configured Sysmon for detailed endpoint logging
+- Integrated Sysmon logs into Splunk using Universal Forwarder
+- Simulated system activity and basic attack behaviors
+- Created search queries to detect suspicious processes and commands
+
+Detection Use Cases:
+- Process execution monitoring
+- Suspicious PowerShell activity
+- Network connection analysis
+- Basic reconnaissance detection
+
+Result:
+- Successfully ingested and analyzed system logs in Splunk
+- Identified and detected simulated suspicious activities using custom queries
+
+Key Insight:
+SIEM tools provide centralized visibility into system activity and enable security analysts to detect and respond to potential threats in real time.
+
+👉 [View Full Report (PDF)](./Cybersecurity_Lab_Deteccting_Attacks_with_Splunk_SIEM_and_Sysmon_Logs.pdf)
+
 ## Certifications
 
 - SOC Level 1 Learning Path – TryHackMe (March 25, 2026)  
