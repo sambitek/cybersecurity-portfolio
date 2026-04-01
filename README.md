@@ -253,12 +253,12 @@ Detection Use Cases:
 
 Result:
 - Successfully ingested and analyzed system logs in Splunk
-- Identified and detected simulated suspicious activities using custom queries
+- Analyzed multiple Sysmon event logs including process creation, network connections, and command execution patterns to detect simulated attack behaviors.
 
 Key Insight:
 SIEM tools provide centralized visibility into system activity and enable security analysts to detect and respond to potential threats in real time.
 
-👉 [View Full Report (PDF)](./Cybersecurity_Lab_Deteccting_Attacks_with_Splunk_SIEM_and_Sysmon_Logs.pdf)
+👉 [View Full Report (PDF)](./Cybersecurity_Lab_Detecting_Attacks_with_Splunk_SIEM_and_Sysmon_Logs.pdf)
 
 ## Certifications
 
