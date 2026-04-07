@@ -59,7 +59,8 @@ Below is a summary of my hands-on cybersecurity projects, highlighting domain, t
 | 4 | Phishing Attack Simulation (MedusaPhisher) | Social Engineering | Credential harvesting, attack simulation, user awareness testing |
 | 5 | SQL Data Analysis & Database Operations Lab | Data Security | Database management, querying, CRUD operations, data analysis |
 | 6 | Endpoint Security Monitoring (Sysmon) | Blue Team / SOC | Event log monitoring, process & network activity analysis, threat detection |
-| 7 | SIEM Log Analysis & Threat Detection (Splunk + Sysmon) | SOC / Threat Detection | Log ingestion, security monitoring, detection queries, simulated attacks ||
+| 7 | SIEM Log Analysis & Threat Detection (Splunk + Sysmon) | SOC / Threat Detection | Log ingestion, security monitoring, detection queries, simulated attacks |
+| 8 | Suricata IDS Deployment & Packet Analysis Lab | Network Security / IDS | Intrusion detection, packet analysis, traffic inspection, threat correlation |
 
 ---
 
@@ -254,6 +255,16 @@ Detection Use Cases:
 - Network connection analysis
 - Basic reconnaissance detection
 
+Key Queries:
+- Detect PowerShell execution:
+  index=* EventCode=1 CommandLine="*powershell*"
+
+- Detect execution policy bypass:
+  index=* CommandLine="*ExecutionPolicy Bypass*"
+
+- Detect network connections:
+  index=* EventCode=3
+
 Result:
 - Successfully ingested and analyzed system logs in Splunk
 - Analyzed multiple Sysmon event logs including process creation, network connections, and command execution patterns to detect simulated attack behaviors.
@@ -262,6 +273,54 @@ Key Insight:
 SIEM tools provide centralized visibility into system activity and enable security analysts to detect and respond to potential threats in real time.
 
 👉 [View Full Report (PDF)](./Cybersecurity_Lab_Detecting_Attacks_with_Splunk_SIEM_and_Sysmon_Logs.pdf)
+
+
+### 8. 🔐 Suricata IDS Deployment & Packet Analysis Lab
+
+Overview:
+This project demonstrates the deployment and practical use of a network-based Intrusion Detection System (IDS) using Suricata. It focuses on detecting and analyzing both network-layer and application-layer attacks through real-time monitoring and packet inspection.
+
+The lab simulates real-world SOC scenarios by generating attack traffic (Nmap reconnaissance and SQL injection) and correlating IDS alerts with packet-level evidence using Wireshark.
+
+Tools & Environment:
+- IDS Engine: Suricata  
+- Packet Analysis: Wireshark  
+- Attacker Machine: Kali Linux  
+- Target System: Metasploitable2 (DVWA)  
+- Network Setup: Virtual Lab (NAT / Host-Only)  
+- Protocols Analyzed: TCP, HTTP  
+
+Methodology:
+- Configured Suricata IDS with custom network settings (`HOME_NET`)  
+- Deployed IDS in live monitoring mode on network interface  
+- Simulated reconnaissance attack using Nmap SYN scan  
+- Performed SQL Injection attack on DVWA web application  
+- Captured live traffic using Wireshark  
+- Applied filters to isolate attack traffic  
+- Correlated Suricata alerts with packet-level data (IP, timestamps, payloads)  
+- Analyzed attack patterns and IDS detection behavior  
+
+Results:
+- Detected Nmap SYN scan using Suricata ET SCAN rules  
+- Identified SQL injection attempts in HTTP traffic  
+- Captured SYN packets indicating port scanning behavior  
+- Extracted SQL injection payloads from HTTP requests  
+- Correlated IDS alerts with actual packet-level evidence  
+
+Key Insights:
+- Suricata effectively detects both network and application-layer attacks, demonstrating its capability as a reliable IDS solution  
+- SYN scan behavior reveals reconnaissance activity through repeated connection attempts across multiple ports  
+- Packet analysis using Wireshark validates IDS alerts and enhances investigation accuracy at the traffic level  
+- SQL injection vulnerabilities highlight the risks of improper input validation in web applications  
+- Correlating IDS alerts with packet data is essential for accurate threat detection and analysis in SOC environments  
+- The project demonstrates practical skills in IDS deployment, network traffic analysis (TCP/IP, HTTP), and alert investigation  
+- Packet-level forensic analysis provides deeper visibility into attack behavior and network interactions  
+- Simulating real-world attack scenarios supports understanding of SOC workflows and incident response processes  
+- Effective network security monitoring requires combining IDS detection with deep packet analysis to identify, validate, and interpret malicious activity
+- 
+👉 [View Full Report (PDF)](./Intrusion_Detection_System_Suricata_Report.pdf)
+
+---
 
 ## Certifications
 
