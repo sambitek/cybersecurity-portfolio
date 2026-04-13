@@ -61,12 +61,13 @@ Below is a summary of my hands-on cybersecurity projects, highlighting domain, t
 | 6 | Endpoint Security Monitoring (Sysmon) | Blue Team / SOC | Event log monitoring, process & network activity analysis, threat detection |
 | 7 | SIEM Log Analysis & Threat Detection (Splunk + Sysmon) | SOC / Threat Detection | Log ingestion, security monitoring, detection queries, simulated attacks |
 | 8 | Suricata IDS Deployment & Packet Analysis Lab | Network Security / IDS | Intrusion detection, packet analysis, traffic inspection, threat correlation |
+| 9 | Web Application Security Assessment & Vulnerability Testing (Byte Connect API) | Application Security | API testing, penetration testing, input validation, authentication analysis |
 
 ---
 
 ## Projects
 
-### 1. Password Hash Analysis & Recovery (John the Ripper)
+### 1. 🔑 Password Hash Analysis & Recovery (John the Ripper)
 
 Overview:
 This project demonstrates a controlled password auditing exercise using a dictionary attack to identify weak credentials.
@@ -82,7 +83,7 @@ Methodology:
 - Matched hashes against a wordlist
 
 Result:
-- Investigated and recovered a weak password from the hash
+- Successfully recovered a weak password from hashed data, demonstrating vulnerability to dictionary attacks.
 
 Key Insight:
 Weak passwords are highly vulnerable to dictionary-based attacks, emphasizing the need for strong password policies.
@@ -155,7 +156,7 @@ Effective cybersecurity is not only technical but also requires strong policies,
 
 👉 [View Full Report (PDF)](./mita_school_security_audit.pdf)
 
-### 4. Phishing Attack Simulation (MedusaPhisher)
+### 4. 🎣 Phishing Attack Simulation (MedusaPhisher)
 
 Overview:
 This project demonstrates a controlled phishing attack simulation using MedusaPhisher to evaluate user susceptibility to social engineering attacks and credential harvesting techniques.
@@ -364,7 +365,7 @@ Result:
 * Provided actionable recommendations to improve API security and resilience
 
 Key Insight:
-Securing APIs requires a combination of **input validation, proper authentication, and proactive vulnerability testing** to prevent exploitation.
+Securing APIs requires a combination of input validation, proper authentication, and proactive vulnerability testing to prevent exploitation.
 
 👉 [View Full Report (PDF)](./web_app_security_assessment.pdf)
 
