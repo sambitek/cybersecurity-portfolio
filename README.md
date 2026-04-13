@@ -320,6 +320,54 @@ Key Insights:
 - 
 👉 [View Full Report (PDF)](./Intrusion_Detection_System_Suricata_Report.pdf)
 
+
+### 9. 🔐 Web Application Security Assessment & Vulnerability Testing (Byte Connect API)
+
+Overview:
+This project focuses on a practical cybersecurity assessment of the Byte Connect web application backend. The objective was to evaluate the API’s security posture, identify vulnerabilities, and simulate real-world attack scenarios in a controlled environment.
+
+Scope:
+- Testing of backend API endpoints
+- Evaluation of authentication mechanisms
+- Assessment of input validation and error handling
+- Analysis of API response behavior under attack conditions
+
+Methodology:
+- Conducted black-box penetration testing using Postman
+- Performed endpoint discovery and request analysis
+- Simulated common attacks:
+  - SQL Injection
+  - Invalid input and malformed requests
+  - Authentication bypass attempts
+- Evaluated system responses and security controls
+
+Key Findings:
+- API properly validates user input and prevents empty submissions
+- No SQL injection vulnerability detected during testing
+- Secure error messages prevent information disclosure (e.g., generic “Invalid credentials”)
+- Missing or misconfigured endpoint (`/api/auth/register`)
+- No visible rate limiting (potential brute-force attack risk)
+- Authorization mechanisms not fully exposed/tested
+
+Recommendations:
+
+- Implement JWT-based authentication for secure access control
+- Introduce rate limiting to mitigate brute-force attacks
+- Enforce strict input validation using validation libraries
+- Complete and properly configure all API endpoints
+- Implement role-based access control (RBAC)
+- Add logging and monitoring for suspicious activities
+
+Result:
+
+* Successfully identified security strengths and potential vulnerabilities
+* Provided actionable recommendations to improve API security and resilience
+
+Key Insight:
+Securing APIs requires a combination of **input validation, proper authentication, and proactive vulnerability testing** to prevent exploitation.
+
+👉 [View Full Report (PDF)](./web_app_security_assessment.pdf)
+
 ---
 
 ## Certifications
