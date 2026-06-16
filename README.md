@@ -1,4 +1,4 @@
-![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-blue) ![Focus](https://img.shields.io/badge/Focus-SOC%20Analyst-green) ![Level](https://img.shields.io/badge/Level-Entry--Level-orange)
+![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-blue) ![Focus](https://img.shields.io/badge/Focus-SOC%20Analyst/IT%20Support-green) ![Level](https://img.shields.io/badge/Level-Entry--Level-orange)
 
 # 👨‍💻 Cybersecurity Portfolio
 
