@@ -62,6 +62,8 @@ Below is a summary of my hands-on cybersecurity projects, highlighting domain, t
 | 7 | SIEM Log Analysis & Threat Detection (Splunk + Sysmon) | SOC / Threat Detection | Log ingestion, security monitoring, detection queries, simulated attacks |
 | 8 | Suricata IDS Deployment & Packet Analysis Lab | Network Security / IDS | Intrusion detection, packet analysis, traffic inspection, threat correlation |
 | 9 | Web Application Security Assessment & Vulnerability Testing (Byte Connect API) | Application Security | API testing, penetration testing, input validation, authentication analysis |
+| 10 | Kali Linux Disk Expansion Using GParted | Linux Administration | Disk partitioning, GParted, VirtualBox, storage troubleshooting, filesystem management |
+
 
 ---
 
@@ -368,6 +370,42 @@ Key Insight:
 Securing APIs requires a combination of input validation, proper authentication, and proactive vulnerability testing to prevent exploitation.
 
 👉 [View Full Report (PDF)](./web_app_security_assessment.pdf)
+
+### 10. 💾 Kali Linux Disk Expansion Using GParted
+
+Overview:
+
+This project documents how I resolved a critical disk space issue in a Kali Linux virtual machine running in VirtualBox. The root partition had reached 100% capacity, preventing software installation and normal system operation. Instead of deleting important files or reinstalling the operating system, I used GParted Live to safely reorganize the partition layout and expand the root partition.
+
+Tools & Environment:
+
+- Kali Linux
+- Oracle VirtualBox
+- GParted Live
+- Linux Terminal
+
+Methodology:
+
+- Identified the storage issue using `df -h`
+- Verified the disk layout with `lsblk`
+- Booted into GParted Live
+- Modified the partition layout
+- Expanded the root partition
+- Applied the changes
+- Restarted Kali Linux
+- Verified the new partition size
+
+Result:
+
+- Successfully expanded the root partition from 38 GB to 59 GB
+- Increased available storage from 0 GB to approximately 18 GB
+- Preserved all existing files and system configurations without reinstalling Kali Linux
+
+Key Insight:
+
+Understanding Linux partition management is essential for maintaining virtual machines. Proper use of GParted allows administrators to safely extend storage while preserving data and minimizing downtime.
+
+👉 [View Full Report (PDF)](./expanding_kali_linux_disk_using_gparted.pdf)
 
 ---
 
